@@ -42,10 +42,18 @@ namespace Laço_de_repetição
             //    lstFor.Items.Add(valor);
             //}
 
-            for (int valor = 0; valor <= 10; valor +=2)
+            //for (int valor = 0; valor <= 10; valor +=2)
+            //{
+            //    lstFor.Items.Add(valor);
+            //}
+
+            int vezes = 0;
+            do
             {
-                lstFor.Items.Add(valor);
+                lstFor.Items.Add(vezes);
+                vezes++;
             }
+            while (vezes <= 1000);
 
         }
     }
