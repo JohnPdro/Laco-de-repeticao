@@ -35,22 +35,24 @@ namespace Laço_de_repetição
             // 
             // lstFor
             // 
-            this.lstFor.BackColor = System.Drawing.Color.Cornsilk;
-            this.lstFor.Font = new System.Drawing.Font("OCR A Extended", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstFor.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lstFor.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lstFor.Font = new System.Drawing.Font("OCR A Extended", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstFor.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lstFor.FormattingEnabled = true;
-            this.lstFor.ItemHeight = 12;
             this.lstFor.Location = new System.Drawing.Point(23, 12);
             this.lstFor.Name = "lstFor";
-            this.lstFor.Size = new System.Drawing.Size(150, 256);
+            this.lstFor.Size = new System.Drawing.Size(150, 260);
             this.lstFor.TabIndex = 0;
             this.lstFor.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Wheat;
+            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("OCR-A BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.button1.Location = new System.Drawing.Point(179, 229);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(89, 47);

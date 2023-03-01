@@ -34,6 +34,19 @@ namespace Laço_de_repetição
             //lstFor.Items.Add(8);
             //lstFor.Items.Add(9);
             //lstFor.Items.Add(10);
+
+            //vamos fazer um laço de repetição para que preencha algund valores
+
+            //for (int valor = 0; valor <= 10; valor++)
+            //{
+            //    lstFor.Items.Add(valor);
+            //}
+
+            for (int valor = 0; valor <= 10; valor +=2)
+            {
+                lstFor.Items.Add(valor);
+            }
+
         }
     }
 }
